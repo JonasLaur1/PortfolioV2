@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#desktop-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.home, .projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 50px;
+    box-shadow: 1.6px 3.2px 3.2px hsl(0deg 0% 0% / 0.45);
+    padding: 15px;
+
+}
+
+#hello{
+    font-size: 25px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#bold{
+    font-weight: bold;
+}
+
+p{
+    font-size: 20px;
+}
+
+img{
+    width: 50px;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.tech-stack{
+    display: flex;
+    align-items: center;
+}
+
+.tech-stack > img{
+    height: 40px;
+    width: 40px;
+}
+
+#tech-stack-p{
+    border-right: 1px solid black;
+    font-weight: 600;
+    padding: 10px;
+    margin: 25px 25px 25px 0px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+}
+
+#project-left > img{
+    height: 425px;
+    width: 350px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+}
+
+#project-left{
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust shadow size and color */
+    margin: 10px;
+    padding: 5px;
+}
+
+#project-description{
+    text-align: center;
+}
+
+#project-description > p{
+    text-align: left;
+}
+
+#project-buttons{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 20px;
+}
+
+#project-buttons > button{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+
+}
+
